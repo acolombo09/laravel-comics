@@ -1,13 +1,13 @@
 @extends("layouts.public")
 
-@section("title", "La Molisana - Portfolio")
+@section("title", "DC - Movies")
 
 @section("content")
 
   <main>
     <div class="container mt-3">
       <div class="text-center mt-3">
-        <h2 class="mt-3">Benvenuto nella sezione Portfolio</h2>
+        <h2 class="mt-3">Benvenuto nella sezione Movies</h2>
       </div>
     </div>
   

@@ -7,95 +7,559 @@ Route::get('/', function () {
   $data = [
     'headerLinks' => [
       'HOME',
-      'BLOG',
-      'PORTFOLIO',
-      'ABOUT',
-      'CONTACTS',
-      'NEWPAGE'
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
     ]
     ];
+    
 
   return view('home', $data);
 });
 
-Route::get('blog', function () {
+Route::get('comics', function () {
 
   $data = [
     'headerLinks' => [
       'HOME',
-      'BLOG',
-      'PORTFOLIO',
-      'ABOUT',
-      'CONTACTS',
-      'NEWPAGE'
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
     ]
     ];
 
-  return view('blog', $data);
+  return view('comics', $data);
 });
 
-Route::get('portfolio', function () {
+Route::get('movies', function () {
 
   $data = [
     'headerLinks' => [
       'HOME',
-      'BLOG',
-      'PORTFOLIO',
-      'ABOUT',
-      'CONTACTS',
-      'NEWPAGE'
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
     ]
     ];
 
-  return view('portfolio', $data);
+  return view('movies', $data);
 });
 
-Route::get('about', function () {
+Route::get('tv', function () {
 
   $data = [
     'headerLinks' => [
       'HOME',
-      'BLOG',
-      'PORTFOLIO',
-      'ABOUT',
-      'CONTACTS',
-      'NEWPAGE'
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
     ]
     ];
 
-  return view('about', $data);
+  return view('tv', $data);
 });
 
-Route::get('contacts', function () {
+Route::get('games', function () {
 
   $data = [
     'headerLinks' => [
       'HOME',
-      'BLOG',
-      'PORTFOLIO',
-      'ABOUT',
-      'CONTACTS',
-      'NEWPAGE'
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
     ]
     ];
 
-  return view('contacts', $data);
+  return view('games', $data);
 });
 
-Route::get('newpage', function () {
+Route::get('collectibles', function () {
 
   $data = [
     'headerLinks' => [
       'HOME',
-      'BLOG',
-      'PORTFOLIO',
-      'ABOUT',
-      'CONTACTS',
-      'NEWPAGE'
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
     ]
     ];
 
-  return view('newpage', $data);
+  return view('collectibles', $data);
 });
 
+Route::get('videos', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
+    ]
+    ];
+
+  return view('videos', $data);
+});
+
+Route::get('fans', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
+    ]
+    ];
+
+  return view('fans', $data);
+});
+
+Route::get('news', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
+    ]
+    ];
+
+  return view('news', $data);
+});
+
+Route::get('shop', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'COMICS',
+      'MOVIES',
+      'TV',
+      'GAMES',
+      'COLLECTIBLES',
+      'VIDEOS',
+      'FANS',
+      'NEWS',
+      'SHOP',
+    ],
+    'dcComicsLinks' => [
+      'Characters',
+      'Comics',
+      'Movies',
+      'Tv',
+      'Games',
+      'Videos',
+      'News',
+    ],
+    
+    'shopLinks' => [
+      'Shop Dc',
+      'Shop Collectibles',
+    ],
+    
+    'dcLinks' => [
+      'Terms Of Use',
+      'Privacy Policy(New)',
+      'AdChoice',
+      'Advertising',
+      'Jobs',
+      'Subscriptions',
+      'Talent Workshops',
+      'CPSC Certificates',
+      'Ratings',
+      'Shop Help',
+      'Contact Us',
+    ],
+
+    'sitesLinks' => [
+      'DC',
+      'Mad Magazine',
+      'DC Kids',
+      'DC Universe',
+      'DC Power Visa',
+    ]
+    ];
+
+  return view('shop', $data);
+});
 ?>
