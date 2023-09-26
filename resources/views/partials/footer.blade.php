@@ -1,3 +1,41 @@
+<?php
+  $dcComicsLinks = [
+    'Characters',
+    'Comics',
+    'Movies',
+    'Tv',
+    'Games',
+    'Videos',
+    'News',
+  ];
+  
+  $shopLinks = [
+    'Shop Dc',
+    'Shop Collectibles',
+  ];
+  
+  $dcLinks = [
+    'Terms Of Use',
+    'Privacy Policy(New)',
+    'AdChoice',
+    'Advertising',
+    'Jobs',
+    'Subscriptions',
+    'Talent Workshops',
+    'CPSC Certificates',
+    'Ratings',
+    'Shop Help',
+    'Contact Us',
+  ];
+
+  $sitesLinks = [
+    'DC',
+    'Mad Magazine',
+    'DC Kids',
+    'DC Universe',
+    'DC Power Visa',
+  ];
+?>
 <footer>
   <div class="container-fluid px-0 footer-upper">
     <div class="row mx-0">

@@ -1,3 +1,17 @@
+<?php
+  $headerLinks = [
+    'HOME',
+    'COMICS',
+    'MOVIES',
+    'TV',
+    'GAMES',
+    'COLLECTIBLES',
+    'VIDEOS',
+    'FANS',
+    'NEWS',
+    'SHOP',
+  ]
+?>
 <header class="bg-white py-3">
   <div class="row">
     <div class="col-md-9 d-flex justify-content-center align-items-center justify-content-between mx-auto px-0">
