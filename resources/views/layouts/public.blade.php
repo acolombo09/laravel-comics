@@ -18,13 +18,22 @@
 </head>
 
 <body>
-  @include("partials.navbar")
-  <main>
-    {{-- segnaposto che verrà sostituito con il contenuto di ogni pagina --}}
-    {{-- nelle altre pagine devo indicare cosa inserire in questo segnaposto --}}
-    @yield("content")
-  </main>
-  @include("partials.footer")
+  <div class="container-fluid px-0">
+    <div class="row">
+      <div class="col">
+        @include("partials.navbar")
+        <main>
+          {{-- segnaposto che verrà sostituito con il contenuto di ogni pagina --}}
+          {{-- nelle altre pagine devo indicare cosa inserire in questo segnaposto --}}
+          @yield("content")
+          @include("partials.cards")
+
+        </main>
+        @include("partials.banner")
+        @include("partials.footer")
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
