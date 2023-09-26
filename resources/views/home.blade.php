@@ -1,6 +1,6 @@
 @extends("layouts.public")
 
-@section("title", "La Molisana - HomePage")
+@section("title", "DC Comics - Characters-HomePage")
 
 @section("content")
 
@@ -8,7 +8,7 @@
     <div class="container my-3">
       <div class="text-center mt-3">
         <h1 class="text-danger">Ciao!</h1>
-        <h2 class="mt-3">Benvenuto nella home</h2>
+        <h2 class="mt-3">Benvenuto nella sezione characters-home</h2>
       </div>
       <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="" alt="" width="72" height="57">

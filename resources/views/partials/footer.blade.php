@@ -5,32 +5,49 @@
         <div class="col-md-4 d-flex justify-content-between px-0">
           <div class="row mx-0">
             <div class="col-4 px-0">
-              <h6 class="title">DC COMICS</h6>
+              <h6 class="footer-title">DC COMICS</h6>
               <ul class="list-unstyled">
-                @foreach ($dcComicsLinks as $dcLink)
+                @foreach ($dcComicsLinks as $dcomicsLink)
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    {{ $dcomicsLink }}
+                  </a>
+                </li>
+                @endforeach
+              </ul>
+              <h6 class="footer-title">SHOP</h6>
+              <ul class="list-unstyled">
+                @foreach ($shopLinks as $shopLink)
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    {{ $shopLink }}
+                  </a>
+                </li>
+                @endforeach
+              </ul>
+            </div>
+            <div class="col-4 px-0">
+              <h6 class="footer-title">DC</h6>
+              <ul class="list-unstyled">
+                @foreach ($dcLinks as $dcLink)
                 <li class="nav-item">
                   <a class="nav-link" href="#">
                     {{ $dcLink }}
                   </a>
                 </li>
                 @endforeach
-                {{-- <li v-for="link in DcComicsLinks"><a href="#">{{ link.name }}</a></li> --}}
-              </ul>
-              <h6 class="title">SHOP</h6>
-              <ul class="list-unstyled">
-                {{-- <li v-for="link in ShopLinks"><a href="#">{{ link.name }}</a></li> --}}
               </ul>
             </div>
             <div class="col-4 px-0">
-              <h6 class="title">DC</h6>
+              <h6 class="footer-title">SITES</h6>
               <ul class="list-unstyled">
-                {{-- <li v-for="link in DCLinks"><a href="#">{{ link.name }}</a></li> --}}
-              </ul>
-            </div>
-            <div class="col-4 px-0">
-              <h6 class="title">SITES</h6>
-              <ul class="list-unstyled">
-                {{-- <li v-for="link in SitesLinks"><a href="#">{{ link.name }}</a></li> --}}
+                @foreach ($sitesLinks as $siteLink)
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    {{ $siteLink }}
+                  </a>
+                </li>
+                @endforeach
               </ul>
             </div>
           </div> 
@@ -60,37 +77,3 @@
     </div>
   </div>
 </footer>
-
-<style>
-
-a {
-  text-decoration: none;
-  color: $color-tertiary;
-}
-
-.footer-upper{
-  background-image: url(../assets/img/footer-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  .div-logo{
-    min-height: 400px;
-    overflow: hidden;
-  }
-  .logo-img{
-    height: 120%;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-  }
-}
-
-.footer-lower{
-  background-color: $color-secondary;
-}
-
-.title {
-  color: white;
-}
-
-</style>
